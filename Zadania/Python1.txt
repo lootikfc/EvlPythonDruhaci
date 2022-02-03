@@ -1,0 +1,11 @@
+Vašou úlohou bude nakresliť jednoduchú záhradku v Canvase. Používať na to môžete čiary, štvorce/obdĺžniky a kruhy/ovály. Na záver sa podpíšete svojimi iniciálkami do dolného rohu (použite tiež len tie tri vyššie uvedené tvary). Najkrajšie kresby budú ohodnotené extra bodmi. 
+
+Minimálne požiadavky, každá za 1 bod:
+- 6 rôznych farieb 
+- 5 obdĺžnikov
+- 5 oválov
+- 5 čiar
+- podpis v pravom dolnom rohu (nepočíta sa do minimálneho počtu útvarov)
+
+Odovzdať úlohu môžete buď na konci hodiny tak, že mi ju ukážete (a potom len dodatočne vložíte do miesta pre odovzdanie), prípadne štandardne do deadline-u 10.2. do 7:00.
+Úlohu odovzdajte vo formáte TriedaMenoPriezvisko1.py
