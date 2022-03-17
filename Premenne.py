@@ -53,7 +53,7 @@ canvas.create_text(100,140, text = pole)
 # Ak budeme chciet nahodne vybrat niektoru z tychto farieb,
 # vieme to urobit nasledovne:
 
-canvas.create_text(100, 170, text = pole[random.randint(0,4)])
+canvas.create_text(100, 170, text = pole[random.randrange(0,4)])
 
 # Preco to funguje? Vygenerujeme nahodne cislo od 0 do 4
 # a potom vypiseme dany prvok pola
@@ -63,3 +63,15 @@ canvas.create_text(100, 170, text = pole[random.randint(0,4)])
 # farby pre nas obdlznik
 
 canvas.create_rectangle(250,250,300,300, fill = pole[random.randrange(0,4)])
+
+
+# Teraz si mozeme skusit vykreslit stvorec pomocou premennych
+# V premennych 'x' a 'y' si budeme pamatat suradnice laveho horneho
+# rohu, v premennej strana bude dlzka strany stvorca
+
+x = 300
+y = 50
+strana = 50
+
+canvas.create_rectangle(x,y,x+strana, y+strana)
+
